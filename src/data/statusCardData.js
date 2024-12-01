@@ -1,8 +1,10 @@
+
 export const statusCardData = [
   {
     title: "Employee Turn over rate",
     value: '35%',
-    description: "Resignation in last 90 days"
+    description: "Resignation in last 90 days",
+    color:["#27648f", "#605233"]
 
   },
   {
@@ -17,7 +19,7 @@ export const statusCardData = [
   {
     title: "Overall Attendance",
     value: '89%',
-    description: "Attendance Performance" 
-
+    description: "Attendance Performance",
+    color:["#998946", "#2e9879"]
   },
 ]

@@ -8,7 +8,24 @@ const Table = () => {
       subject: "Marriage Leave Request",
       dueDate: "21 Apr 2024",
     },
-    // Repeat the same row for as many times as needed
+    {
+      requestId: "RQ-002-2024",
+      requester: "Name Of Requested",
+      subject: "Marriage Leave Request",
+      dueDate: "21 Apr 2024",
+    },
+    {
+      requestId: "RQ-002-2024",
+      requester: "Name Of Requested",
+      subject: "Marriage Leave Request",
+      dueDate: "21 Apr 2024",
+    },
+    {
+      requestId: "RQ-002-2024",
+      requester: "Name Of Requested",
+      subject: "Marriage Leave Request",
+      dueDate: "21 Apr 2024",
+    },
     {
       requestId: "RQ-002-2024",
       requester: "Name Of Requested",
@@ -24,7 +41,7 @@ const Table = () => {
   ];
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px 0 20px 0" }}>
       <table
         style={{
           borderCollapse: "collapse",

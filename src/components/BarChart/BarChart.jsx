@@ -12,15 +12,15 @@ import {
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-const BarChart = () => {
+const BarChart = ({color}) => {
   const data = {
     labels: ["2020", "2021"], 
     datasets: [
       {
         label: "", 
         data: [65, 59], 
-        backgroundColor: ["#27648f", "#605233"], 
-        borderColor: ["#1f4f6e", "#4a4026", ], 
+        backgroundColor: color, 
+        borderColor: color, 
         borderWidth: 1,
       },
     ],

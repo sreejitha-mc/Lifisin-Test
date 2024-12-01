@@ -18,7 +18,7 @@ const StatusCards = ({ data }) => {
           <span>Contract employees : {female}</span>
         </div>
         : <div className={Style.right}>
-          <BarChart />
+          <BarChart  color={data?.color}/>
         </div>}
     </div>
   )

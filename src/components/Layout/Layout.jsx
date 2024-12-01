@@ -5,7 +5,7 @@ import SideBar from '../SideBar/SideBar'
 const Layout = ({ children }) => {
   return (
     <>
-      <div style={{ display: "flex", alignItems: 'start', position: 'absolute', width: "100%", zIndex: "-1" }}>
+      <div style={{ display: "flex", alignItems: 'start', position: 'absolute', width: "100%"}}>
         {window.innerWidth > 1060 && <SideBar />}
         <Header />
       </div>
