@@ -1,0 +1,50 @@
+.StatusCard{
+  display: flex;
+  padding: 20px 20px;
+  border: 1px solid #a3d0ff;
+  margin: 12px;
+  width: fit-content;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  min-width: 416px;
+  position: relative;
+  .left{
+    margin: 0 40px 0 0;
+    width: 50%;
+    h4{
+      margin-bottom: 14px;
+      font-size: 11px;
+      color: #2F9879;
+    }
+    span{
+      display: inline-block;
+      margin-bottom: 14px;
+      font-size: 30px;
+      font-weight: bold;
+      color: green;
+    }
+    p{
+      color: #5b5b5b;
+      font-size: 11px;
+    }
+  }
+}
+.employees{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  border-left: 1px solid #3333;
+  padding-left: 20px;
+  span{
+    font-size: 12px;
+  }
+}
+.right{
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}

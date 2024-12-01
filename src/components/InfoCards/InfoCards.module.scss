@@ -1,0 +1,21 @@
+.Infocards{
+  border: 1px solid #a3d0ff;
+  padding: 14px 14px;
+  width: 49%;
+  margin-right: 10px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  min-height: 232px;
+  &:last-child{
+    margin-right: 0;
+  }
+  @media (max-width: 1280px) {
+    width: 100%;
+  }
+}
+.footer{
+  color: #9b8c04;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
